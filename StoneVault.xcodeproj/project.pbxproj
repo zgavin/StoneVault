@@ -17,6 +17,7 @@
 		C9D9B7A1176FA6CC0067BAF9 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9D9B781176FA6CC0067BAF9 /* Cocoa.framework */; };
 		C9D9B7A9176FA6CC0067BAF9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C9D9B7A7176FA6CC0067BAF9 /* InfoPlist.strings */; };
 		C9D9B7AC176FA6CC0067BAF9 /* VaultTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C9D9B7AB176FA6CC0067BAF9 /* VaultTests.m */; };
+		C9D9B7B7176FF5360067BAF9 /* OnlyIntegerValueFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = C9D9B7B6176FF5360067BAF9 /* OnlyIntegerValueFormatter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,25 +31,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C9D9B77E176FA6CC0067BAF9 /* Vault.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vault.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9D9B77E176FA6CC0067BAF9 /* StoneVault.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StoneVault.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9D9B781176FA6CC0067BAF9 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		C9D9B784176FA6CC0067BAF9 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		C9D9B785176FA6CC0067BAF9 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		C9D9B786176FA6CC0067BAF9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		C9D9B789176FA6CC0067BAF9 /* Vault-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Vault-Info.plist"; sourceTree = "<group>"; };
+		C9D9B789176FA6CC0067BAF9 /* StoneVault-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StoneVault-Info.plist"; sourceTree = "<group>"; };
 		C9D9B78B176FA6CC0067BAF9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C9D9B78D176FA6CC0067BAF9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C9D9B78F176FA6CC0067BAF9 /* Vault-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vault-Prefix.pch"; sourceTree = "<group>"; };
+		C9D9B78F176FA6CC0067BAF9 /* StoneVault-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StoneVault-Prefix.pch"; sourceTree = "<group>"; };
 		C9D9B791176FA6CC0067BAF9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		C9D9B793176FA6CC0067BAF9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C9D9B794176FA6CC0067BAF9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		C9D9B797176FA6CC0067BAF9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		C9D9B79E176FA6CC0067BAF9 /* VaultTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VaultTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9D9B79E176FA6CC0067BAF9 /* StoneVaultTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StoneVaultTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9D9B79F176FA6CC0067BAF9 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		C9D9B7A6176FA6CC0067BAF9 /* VaultTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VaultTests-Info.plist"; sourceTree = "<group>"; };
+		C9D9B7A6176FA6CC0067BAF9 /* StoneVaultTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StoneVaultTests-Info.plist"; sourceTree = "<group>"; };
 		C9D9B7A8176FA6CC0067BAF9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C9D9B7AA176FA6CC0067BAF9 /* VaultTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VaultTests.h; sourceTree = "<group>"; };
 		C9D9B7AB176FA6CC0067BAF9 /* VaultTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VaultTests.m; sourceTree = "<group>"; };
+		C9D9B7B5176FF5360067BAF9 /* OnlyIntegerValueFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OnlyIntegerValueFormatter.h; sourceTree = "<group>"; };
+		C9D9B7B6176FF5360067BAF9 /* OnlyIntegerValueFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OnlyIntegerValueFormatter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,8 +88,8 @@
 		C9D9B77F176FA6CC0067BAF9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C9D9B77E176FA6CC0067BAF9 /* Vault.app */,
-				C9D9B79E176FA6CC0067BAF9 /* VaultTests.octest */,
+				C9D9B77E176FA6CC0067BAF9 /* StoneVault.app */,
+				C9D9B79E176FA6CC0067BAF9 /* StoneVaultTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -118,6 +121,8 @@
 				C9D9B794176FA6CC0067BAF9 /* AppDelegate.m */,
 				C9D9B796176FA6CC0067BAF9 /* MainMenu.xib */,
 				C9D9B788176FA6CC0067BAF9 /* Supporting Files */,
+				C9D9B7B5176FF5360067BAF9 /* OnlyIntegerValueFormatter.h */,
+				C9D9B7B6176FF5360067BAF9 /* OnlyIntegerValueFormatter.m */,
 			);
 			path = Vault;
 			sourceTree = "<group>";
@@ -125,10 +130,10 @@
 		C9D9B788176FA6CC0067BAF9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				C9D9B789176FA6CC0067BAF9 /* Vault-Info.plist */,
+				C9D9B789176FA6CC0067BAF9 /* StoneVault-Info.plist */,
 				C9D9B78A176FA6CC0067BAF9 /* InfoPlist.strings */,
 				C9D9B78D176FA6CC0067BAF9 /* main.m */,
-				C9D9B78F176FA6CC0067BAF9 /* Vault-Prefix.pch */,
+				C9D9B78F176FA6CC0067BAF9 /* StoneVault-Prefix.pch */,
 				C9D9B790176FA6CC0067BAF9 /* Credits.rtf */,
 			);
 			name = "Supporting Files";
@@ -147,7 +152,7 @@
 		C9D9B7A5176FA6CC0067BAF9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				C9D9B7A6176FA6CC0067BAF9 /* VaultTests-Info.plist */,
+				C9D9B7A6176FA6CC0067BAF9 /* StoneVaultTests-Info.plist */,
 				C9D9B7A7176FA6CC0067BAF9 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -156,9 +161,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C9D9B77D176FA6CC0067BAF9 /* Vault */ = {
+		C9D9B77D176FA6CC0067BAF9 /* StoneVault */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C9D9B7AF176FA6CC0067BAF9 /* Build configuration list for PBXNativeTarget "Vault" */;
+			buildConfigurationList = C9D9B7AF176FA6CC0067BAF9 /* Build configuration list for PBXNativeTarget "StoneVault" */;
 			buildPhases = (
 				C9D9B77A176FA6CC0067BAF9 /* Sources */,
 				C9D9B77B176FA6CC0067BAF9 /* Frameworks */,
@@ -168,14 +173,14 @@
 			);
 			dependencies = (
 			);
-			name = Vault;
+			name = StoneVault;
 			productName = Vault;
-			productReference = C9D9B77E176FA6CC0067BAF9 /* Vault.app */;
+			productReference = C9D9B77E176FA6CC0067BAF9 /* StoneVault.app */;
 			productType = "com.apple.product-type.application";
 		};
-		C9D9B79D176FA6CC0067BAF9 /* VaultTests */ = {
+		C9D9B79D176FA6CC0067BAF9 /* StoneVaultTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C9D9B7B2176FA6CC0067BAF9 /* Build configuration list for PBXNativeTarget "VaultTests" */;
+			buildConfigurationList = C9D9B7B2176FA6CC0067BAF9 /* Build configuration list for PBXNativeTarget "StoneVaultTests" */;
 			buildPhases = (
 				C9D9B799176FA6CC0067BAF9 /* Sources */,
 				C9D9B79A176FA6CC0067BAF9 /* Frameworks */,
@@ -187,9 +192,9 @@
 			dependencies = (
 				C9D9B7A3176FA6CC0067BAF9 /* PBXTargetDependency */,
 			);
-			name = VaultTests;
+			name = StoneVaultTests;
 			productName = VaultTests;
-			productReference = C9D9B79E176FA6CC0067BAF9 /* VaultTests.octest */;
+			productReference = C9D9B79E176FA6CC0067BAF9 /* StoneVaultTests.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -201,7 +206,7 @@
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Zachary Gavin";
 			};
-			buildConfigurationList = C9D9B779176FA6CC0067BAF9 /* Build configuration list for PBXProject "Vault" */;
+			buildConfigurationList = C9D9B779176FA6CC0067BAF9 /* Build configuration list for PBXProject "StoneVault" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -213,8 +218,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C9D9B77D176FA6CC0067BAF9 /* Vault */,
-				C9D9B79D176FA6CC0067BAF9 /* VaultTests */,
+				C9D9B77D176FA6CC0067BAF9 /* StoneVault */,
+				C9D9B79D176FA6CC0067BAF9 /* StoneVaultTests */,
 			);
 		};
 /* End PBXProject section */
@@ -263,6 +268,7 @@
 			files = (
 				C9D9B78E176FA6CC0067BAF9 /* main.m in Sources */,
 				C9D9B795176FA6CC0067BAF9 /* AppDelegate.m in Sources */,
+				C9D9B7B7176FF5360067BAF9 /* OnlyIntegerValueFormatter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,7 +285,7 @@
 /* Begin PBXTargetDependency section */
 		C9D9B7A3176FA6CC0067BAF9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C9D9B77D176FA6CC0067BAF9 /* Vault */;
+			target = C9D9B77D176FA6CC0067BAF9 /* StoneVault */;
 			targetProxy = C9D9B7A2176FA6CC0067BAF9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -384,9 +390,9 @@
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Vault/Vault-Prefix.pch";
-				INFOPLIST_FILE = "Vault/Vault-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Vault/StoneVault-Prefix.pch";
+				INFOPLIST_FILE = "Vault/StoneVault-Info.plist";
+				PRODUCT_NAME = StoneVault;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -396,9 +402,9 @@
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Vault/Vault-Prefix.pch";
-				INFOPLIST_FILE = "Vault/Vault-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Vault/StoneVault-Prefix.pch";
+				INFOPLIST_FILE = "Vault/StoneVault-Info.plist";
+				PRODUCT_NAME = StoneVault;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -411,8 +417,8 @@
 				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Vault/Vault-Prefix.pch";
-				INFOPLIST_FILE = "VaultTests/VaultTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "VaultTests/StoneVaultTests-Info.plist";
+				PRODUCT_NAME = StoneVaultTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
 			};
@@ -426,8 +432,8 @@
 				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Vault/Vault-Prefix.pch";
-				INFOPLIST_FILE = "VaultTests/VaultTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "VaultTests/StoneVaultTests-Info.plist";
+				PRODUCT_NAME = StoneVaultTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
 			};
@@ -436,7 +442,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C9D9B779176FA6CC0067BAF9 /* Build configuration list for PBXProject "Vault" */ = {
+		C9D9B779176FA6CC0067BAF9 /* Build configuration list for PBXProject "StoneVault" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C9D9B7AD176FA6CC0067BAF9 /* Debug */,
@@ -445,21 +451,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C9D9B7AF176FA6CC0067BAF9 /* Build configuration list for PBXNativeTarget "Vault" */ = {
+		C9D9B7AF176FA6CC0067BAF9 /* Build configuration list for PBXNativeTarget "StoneVault" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C9D9B7B0176FA6CC0067BAF9 /* Debug */,
 				C9D9B7B1176FA6CC0067BAF9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		C9D9B7B2176FA6CC0067BAF9 /* Build configuration list for PBXNativeTarget "VaultTests" */ = {
+		C9D9B7B2176FA6CC0067BAF9 /* Build configuration list for PBXNativeTarget "StoneVaultTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C9D9B7B3176FA6CC0067BAF9 /* Debug */,
 				C9D9B7B4176FA6CC0067BAF9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
